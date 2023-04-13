@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>La mejor Trivia</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <div id="app">La Mejor Trivia</div>
+
+    <script src="src/index.js"></script>
+
+    <input type="text" id="name-player" name="name-player" value="" />
+    <input type="button" value="Jugar" onclick="hola(document)" />
+
+    <h1>Reglas del juego</h1>
+    <li>Divertirse mucho</li>
+    <li>Mantenerse positiva</li>
+    <li>¡Tu puedes!</li>
+
+    <p>1. ¿Qué significa HTML?</p>
+    <label>
+        <input type="radio" name="pregunta1" value="correcto" /> HyperText Markup
+        Language
+    </label>
+    <label>
+        <input type="radio" name="pregunta1" value="incorrecto" /> Lenguaje de
+        Programación
+    </label>
+    <label>
+        <input type="radio" name="pregunta1" value="incorrecto" /> HotMail
+    </label>
+    <button onclick="validar1()">Responder</button>
+
+    <p>2. ¿Qué es JavaScript?</p>
+    <label>
+        <input type="radio" name="pregunta2" value="correcto" />  Es un lenguaje de Programación
+    </label>
+    <label>
+        <input type="radio" name="pregunta2" value="incorrecto" /> Es un lenguaje de diseño
+    </label>
+    <label>
+        <input type="radio" name="pregunta2" value="incorrecto" /> Es una app
+    </label>
+    <button onclick="validar2()">Responder</button>
+    
+    <p>3. ¿Para qué sirve CSS?</p>
+    <label>
+        <input type="radio" name="pregunta3" value="incorrecto" /> Para resolver funciones
+    </label>
+    <label>
+        <input type="radio" name="pregunta3" value="correcto" /> Para dar estilo a los elementos de un sitio web
+    </label>
+    <label>
+        <input type="radio" name="pregunta3" value="incorrecto" /> Para armar documentos
+    </label>
+    <button onclick="validar3()">Responder</button>
+
+    <!-- <p>1. ¿Qué significa HTML?</p>
+    <button id="Correcto" onclick="Respuesta(this.id)">
+      HyperText Markup Language
+    </button>
+    <button onclick="Respuesta()">Lenguaje de Programación</button>
+    <button onclick="Respuesta()">HotMail</button>
+
+    <p>2. ¿Qué es JavaScript?</p>
+    <button id="Correcto" onclick="Respuesta(this.id)">
+      Es un lenguaje de Programación
+    </button>
+    <button onclick="Respuesta()">Es un lenguaje de diseño</button>
+    <button onclick="Respuesta()">Es una app</button>
+
+    <p>3. ¿Para qué sirve CSS?</p>
+    <button onclick="Respuesta()">Para resolver funciones</button>
+    <button id="Correcto" onclick="Respuesta(this.id)">
+      Para dar estilo a los elementos de un sitio web
+    </button>
+    <button onclick="Respuesta()">Para armar documentos</button> -->
+</body>
+</html>
